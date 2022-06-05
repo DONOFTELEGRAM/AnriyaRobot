@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʏ ᴛʜᴇʀᴇ ɪ ᴀᴍ **{}** 
+ʜᴇʏ ᴛʜᴇʀᴇ ɪ ᴀᴍ **Anriya** 
 
  ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜp ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ʟᴏᴛ ᴏғ sᴘᴇᴄɪᴀʟɪᴛʏ.
 
@@ -87,7 +87,7 @@ PM_START_TEXT = """
 ‣ Note keeping system
 ‣ Filters keeping system
 ‣ Approvals and much more.
-‣ Managed By @RexomaSupport.
+‣ Managed By  @VILLAIN_OF_TG.
 
  ➖➖➖➖➖➖➖➖➖➖➖➖➖
 
@@ -99,7 +99,7 @@ buttons = [
             text="Help & Commands", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="👥 Group", url=f"https://t.me/RexomaSupport"),
+        InlineKeyboardButton(text="Support 💬", url=f"https://t.me/AndreaSupportChat"),
         InlineKeyboardButton(
             text="Channel 🔔", url=f"https://t.me/RexomaUpdate"
         ),
