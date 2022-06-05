@@ -101,17 +101,17 @@ buttons = [
     [
         InlineKeyboardButton(text="Support 💬", url=f"https://t.me/AndreaSupportChat"),
         InlineKeyboardButton(
-            text="Channel 🔔", url=f"https://t.me/RexomaUpdate"
+            text="Channel 🔔", url=f"https://t.me/Andrea_Updates"
         ),
     ],
     [
-        InlineKeyboardButton(text="➕Add Me To Your Chat➕", url="https://t.me/InnexiaBot?startgroup=true"),
+        InlineKeyboardButton(text="➕Add Me To Your Chat➕", url="https://t.me/MissAnriya_Bot?startgroup=true"),
     ],
 ]
 
 
 HELP_STRINGS = """
-Hey there! My name is Innexia.\n\n I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with.\n\n ✪ Click on the button bellow to get description about specifics command. ✪ \n\nㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «\n\n➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.\n➲ /donate : sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.\n➲ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.\n ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.\n ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ."""
+Hey there! My name is Anriya.\n\n I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with.\n\n ✪ Click on the button bellow to get description about specifics command. ✪ \n\nㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «\n\n➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.\n➲ /donate : sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.\n➲ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.\n ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.\n ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ."""
 
 
 
@@ -233,7 +233,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "👋 I'm already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "I'm already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -700,7 +700,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", " 𝙱𝙰𝙲𝙺 𝙸𝙽 𝙰𝙲𝚃𝙸𝙾𝙽🔥")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", " Heya! I'm Alive :3")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
