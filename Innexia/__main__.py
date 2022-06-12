@@ -116,7 +116,7 @@ Hey there! My name is Anriya.\n\n I'm a modular group management bot with a few 
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @ReXomaSupport """
+ @AndreaSupportChat """
 
 IMPORTED = {}
 MIGRATEABLE = []
